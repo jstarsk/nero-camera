@@ -1,3 +1,4 @@
+DOCKERFILE= docker run -it --rm -v $(pwd)/DCIM:/DCIM nero-camera
 Virtualenv nero-camera
 
 API Sequoia
