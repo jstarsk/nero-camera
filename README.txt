@@ -1,4 +1,5 @@
 DOCKERFILE= docker run -it --rm -v $(pwd)/DCIM:/DCIM nero-camera
+DOCKER= python nero-camera/sort_data.py
 Virtualenv nero-camera
 
 API Sequoia
