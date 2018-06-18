@@ -3,7 +3,11 @@ FROM ubuntu:18.04
 MAINTAINER Starsky Lara "starsk@noumena.io"
 
 # Install software
-RUN apt-get update && apt-get install -y nano && apt-get install -y git && apt-get install -y apt-utils && apt-get install -y python-dev python-pip
+RUN apt-get update \
+    && apt-get install -y nano \
+    && apt-get install -y git \
+    && apt-get install -y apt-utils \
+    && apt-get install -y python-dev python-pip
 
 RUN pip install serial
 
